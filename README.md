@@ -1,66 +1,108 @@
-Tend – Task Management Web App
+# Tend – Task Management Web App
 
-Tend is a full-stack task management web application that allows users to manage their daily tasks efficiently through a clean and intuitive interface.
+Tend is a full-stack task management web application that allows users to efficiently organize, track, and manage their daily tasks through a clean and intuitive interface.
 
-Features
+---
 
-* User authentication using JWT
-* Signup and login functionality
-* Create, edit, and delete tasks
-* Mark tasks as completed
-* Search and filter tasks
+## Features
 
-Tech Stack
+* User authentication (Login and Signup using JWT)
+* Create, update, and delete tasks
+* Task categorization (Work, Personal, Study, etc.)
+* Due date assignment
+* Priority levels (High, Medium, Low)
+* Pin important tasks
+* Search and filter functionality
+* Reminder indicator for upcoming tasks
+* Overdue task highlighting
+* Progress tracking dashboard
+* Smart sorting (Pinned tasks and due dates)
 
-Frontend:
+---
+
+## Tech Stack
+
+### Frontend
 
 * React (Vite)
+* CSS
 
-Backend:
+### Backend
 
 * Node.js
 * Express.js
 
-Database:
+### Database
 
 * MySQL
 
-Authentication:
+---
 
-* JSON Web Tokens (JWT)
+## Project Structure
 
-Project Structure
+```
+tend/
+├── backend/          
+├── task-dashboard/   
+```
 
-backend/
-server.js
+---
 
-task-dashboard/
-src/
-public/
+## Installation and Setup
 
-Setup Instructions
+### 1. Clone the repository
 
-1. Clone the repository:
-   git clone https://github.com/srividya1409/tend.git
+```
+git clone https://github.com/your-username/tend.git
+cd tend
+```
 
-2. Start the backend:
-   cd backend
-   npm install
-   node server.js
+---
 
-3. Start the frontend:
-   cd task-dashboard
-   npm install
-   npm run dev
+### 2. Backend Setup
 
-Key Learnings
+```
+cd backend
+npm install
+node server.js
+```
 
-* Building a full-stack application
-* Implementing authentication using JWT
-* Connecting frontend and backend services
-* Managing application state in React
-* Debugging and handling real-world issues
+---
 
-Author
+### 3. Frontend Setup
+
+```
+cd task-dashboard
+npm install
+npm run dev
+```
+
+---
+
+## Usage
+
+* Register or log in to access the dashboard
+* Add tasks with category, due date, and priority
+* Track and manage tasks efficiently using filters and sorting
+
+---
+
+## Future Improvements
+
+* Real-time notifications
+* Improved mobile responsiveness
+* Deployment integration
+* Enhanced UI/UX design
+
+---
+
+## Author
 
 Srividya Rajagopalan
+
+---
+
+## Note
+
+This project demonstrates full-stack development including frontend, backend, and database integration.
+
